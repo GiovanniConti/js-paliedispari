@@ -20,12 +20,17 @@ function IsPalindrome(userString){
         revertString = revertString + userString[i];    
         // console.log("Valore stringa durante il ciclo", revertString);
     }
-    
-    // compare the userString and the revertString and return the value of result
-    if(userString === revertString){
-        result = "La parola inserita è palindroma";
+    // check if userString is more than 1 character
+    if(userString.length < 2){
+        alert("NUMERO DI CARATTERI INSERITI NON SUFFICIENTE.")
+        
     } else{
-        result = "La parola inserita NON è palindroma";
+        // compare the userString and the revertString and return the value of result
+        if(userString === revertString){
+            result = "La parola inserita è palindroma";
+        } else{
+            result = "La parola inserita NON è palindroma";
+        }
     }
     return result;
 }
