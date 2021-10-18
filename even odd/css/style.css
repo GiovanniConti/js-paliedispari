@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(6, 104, 6);
+    text-align: center;
+    padding: 25px 0;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+.titleEven{
+    color: black;
+}
+
+.titleOdd{
+    color: red;
+}
+
+.label{
+    font-size: 20px;
+    color: white;
+}
+
+#userNumber{
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+    
+}
+
+#even{
+    color: white;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#odd{
+    color: white;
+    background: red;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
